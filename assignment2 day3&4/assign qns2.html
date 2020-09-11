@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>two inputs</title>
+</head>
+<body>
+	<input type="text" class="input" placeholder="name"/>
+	<input type="text" class="input" placeholder="will be copied">
+	<button onclick="change()">copy</button>
+	<script>
+		function change(){
+			const elem=document.getElementsByClassName("input");
+			elem[1].value=elem[0].value;
+			console.log(change());
+		}
+	</script>
+
+</body>
+</html>

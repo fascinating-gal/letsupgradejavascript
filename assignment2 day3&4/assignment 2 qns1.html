@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creating a Image</title>
+</head>
+<body>
+	<!-- <div class="center">
+<h1 align="middle">Mahatma Gandhi</h1>
+<br>
+<img src="https://5.imimg.com/data5/GP/VH/MY-3319273/mahatma-gandhi-for-life-sketch-of-great-men-chart-500x500.jpg" height="500px" width="500px" align="middle" class="img-fluid img-rounded"><br><br>
+<button id="btn1" class="btn btn-primary" onclick="nochange()">first</button>
+<button id="btn2" class="btn btn-danger" onclick="changeone()">second</button>
+<button id="btn3" class="btn btn-warning" onclick="changetwo()">third</button>
+</div> -->
+<div>
+  <div>
+  <img src="https://static.toiimg.com/thumb/72975551.cms?width=680&amp;height=512&amp;imgsize=881753" alt="" width="500px" height="450px">
+  <br><br> 
+  <button>Button 1</button>
+  <button>Button 2</button>
+  <button>Button 3</button>
+  </div>  
+  
+</div>
+<script>
+	let image=document.getElementsById("image")
+// console.log(image)
+function changeone(){
+    image.src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg"
+}
+
+function changetwo(){
+    image.src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+}
+
+function nochange(){
+    image.src="https://static.toiimg.com/thumb/72975551.cms?width=680&height=512&imgsize=881753"
+}
+</script>
+
+</body>
+</html>
